@@ -2,25 +2,25 @@
 
 ## Boilerplate
 
-Gunakan boilerplate agar tidak perlu membuat ulang bagian dasar setiap kali membuat app baru.
+Use a boilerplate so you do not rebuild the same foundation for every new app.
 
-Boilerplate bisa berupa:
+A boilerplate can be:
 
-- Boilerplate pribadi yang sudah pernah dipakai.
-- iOS boilerplate.
-- Android boilerplate.
-- Flutter boilerplate.
-- React Native boilerplate.
-- Template dari starter kit yang sudah siap monetisasi.
+- A personal boilerplate you have used before.
+- An iOS boilerplate.
+- An Android boilerplate.
+- A Flutter boilerplate.
+- A React Native boilerplate.
+- A starter kit that already supports monetization.
 
-Yang penting, boilerplate harus membuat proses build lebih cepat dan mengurangi pekerjaan berulang.
+The main goal is to ship faster and avoid repeating basic setup work.
 
-## Yang Harus Sudah Ada Di Boilerplate
+## What The Boilerplate Should Include
 
-Minimal setup boilerplate:
+Minimum boilerplate setup:
 
-- Dependencies utama.
-- Struktur folder project.
+- Core dependencies.
+- Project folder structure.
 - Onboarding.
 - Paywall.
 - Payment.
@@ -28,14 +28,14 @@ Minimal setup boilerplate:
 - Premium state.
 - Settings page.
 - App config.
-- Theme dasar.
-- Reusable component.
+- Base theme.
+- Reusable components.
 
 ## Dependencies
 
-Siapkan dependencies yang hampir selalu dipakai di setiap app.
+Prepare dependencies that are used in most apps.
 
-Contoh:
+Examples:
 
 - Navigation.
 - State management.
@@ -44,46 +44,46 @@ Contoh:
 - Analytics.
 - Crash reporting.
 - Remote config.
-- Image picker atau camera.
+- Image picker or camera.
 - API client.
 - Local storage.
 
-Tujuannya supaya project baru langsung siap dipakai tanpa setup dari nol.
+The goal is to make every new project ready to build without starting from zero.
 
 ## Onboarding
 
-Onboarding harus sudah tersedia sebagai flow dasar.
+Onboarding should already exist as a base flow.
 
-Isi onboarding:
+Onboarding content:
 
-- Intro singkat fungsi app.
-- Benefit utama app.
-- Permission request jika dibutuhkan.
-- Arahkan user ke paywall atau main screen.
+- Short intro to the app.
+- Main app benefit.
+- Permission request if needed.
+- Route user to the paywall or main screen.
 
-Onboarding tidak perlu dibuat unik dari awal untuk setiap app. Cukup siapkan template yang bisa diganti copywriting, icon, warna, dan gambar.
+Onboarding does not need to be rebuilt from scratch for every app. Prepare a template where copy, icons, colors, and images can be changed quickly.
 
 ## Paywall
 
-Paywall wajib sudah tersedia di boilerplate jika app menggunakan monetisasi subscription.
+Paywall should already exist in the boilerplate if the app uses subscription monetization.
 
-Paywall minimal punya:
+Minimum paywall content:
 
-- Judul benefit.
-- List fitur premium.
-- Pilihan paket.
-- Tombol continue.
+- Benefit headline.
+- Premium feature list.
+- Pricing options.
+- Continue button.
 - Restore purchase.
-- Terms dan privacy link.
-- Free trial jika ada.
+- Terms and privacy links.
+- Free trial if available.
 
-Paywall harus mudah diganti kontennya sesuai app.
+The paywall content should be easy to replace for each app.
 
 ## Payment & Trial
 
-Setup payment harus reusable.
+Payment setup should be reusable.
 
-Yang perlu disiapkan:
+Prepare:
 
 - Product ID.
 - Subscription package.
@@ -91,27 +91,27 @@ Yang perlu disiapkan:
 - Purchase flow.
 - Restore purchase.
 - Premium access check.
-- Error handling saat purchase gagal.
+- Error handling for failed purchases.
 
-Pastikan app bisa membedakan user free dan user premium.
+Make sure the app can separate free users from premium users.
 
 ## Premium State
 
-Siapkan logic untuk mengecek status premium.
+Prepare logic for checking premium status.
 
-Contoh kebutuhan:
+Example needs:
 
-- Apakah user sudah subscribe.
-- Apakah trial masih aktif.
-- Apakah fitur premium boleh dibuka.
-- Apakah paywall perlu ditampilkan.
-- Apakah subscription sudah expired.
+- Whether the user is subscribed.
+- Whether the trial is still active.
+- Whether a premium feature can be opened.
+- Whether the paywall should be shown.
+- Whether the subscription has expired.
 
-Premium state harus bisa dipakai di semua screen.
+Premium state should be usable across all screens.
 
 ## Settings Page
 
-Settings page minimal berisi:
+Minimum settings page:
 
 - Restore purchase.
 - Manage subscription.
@@ -120,17 +120,17 @@ Settings page minimal berisi:
 - Contact support.
 - App version.
 
-Jika app punya akun user, tambahkan:
+If the app has user accounts, add:
 
 - Profile.
 - Sign out.
 - Delete account.
 
-## Struktur Project
+## Project Structure
 
-Gunakan struktur folder yang konsisten.
+Use a consistent folder structure.
 
-Contoh:
+Example:
 
 ```text
 app/
@@ -143,9 +143,9 @@ app/
   assets/
 ```
 
-Untuk app baru, cukup ganti:
+For a new app, only replace:
 
-- Nama app.
+- App name.
 - Icon.
 - Theme.
 - Copywriting.
@@ -155,17 +155,17 @@ Untuk app baru, cukup ganti:
 
 ## Step-by-Step
 
-### 1. Clone Boilerplate
+### 1. Clone The Boilerplate
 
-Mulai dari boilerplate yang sudah siap.
+Start from a ready boilerplate.
 
-Jangan mulai dari project kosong kecuali benar-benar perlu.
+Do not start from an empty project unless it is truly necessary.
 
-### 2. Rename Project
+### 2. Rename The Project
 
-Ganti nama project sesuai app baru.
+Rename the project for the new app.
 
-Yang perlu diganti:
+Update:
 
 - App name.
 - Bundle ID.
@@ -174,77 +174,77 @@ Yang perlu diganti:
 - Splash screen.
 - Product ID.
 
-### 3. Setup Dependencies
+### 3. Set Up Dependencies
 
-Pastikan semua dependencies sudah terinstall dan project bisa dijalankan.
+Make sure all dependencies are installed and the project can run.
 
-Cek:
+Check:
 
-- App bisa run.
-- Tidak ada error dependency.
-- Build berhasil.
-- Navigation berjalan.
-- Theme tampil normal.
+- App can run.
+- No dependency errors.
+- Build succeeds.
+- Navigation works.
+- Theme renders correctly.
 
-### 4. Setup Onboarding
+### 4. Set Up Onboarding
 
-Ganti isi onboarding sesuai app.
+Replace onboarding content for the app.
 
 Update:
 
 - Headline.
 - Description.
 - Benefit.
-- Image atau icon.
-- Permission request jika ada.
+- Image or icon.
+- Permission request if needed.
 
-### 5. Setup Paywall
+### 5. Set Up Paywall
 
-Ganti paywall sesuai positioning app.
+Replace the paywall based on the app positioning.
 
 Update:
 
-- Premium benefit.
+- Premium benefits.
 - Subscription package.
 - Free trial.
 - Product ID.
 - Pricing display.
 
-### 6. Setup Premium Access
+### 6. Set Up Premium Access
 
-Hubungkan fitur utama dengan premium state.
+Connect the main feature with premium state.
 
-Contoh:
+Examples:
 
-- User free hanya bisa scan beberapa kali.
-- User premium bisa akses unlimited.
-- Fitur tertentu dikunci sampai user subscribe.
+- Free users can only scan a limited number of times.
+- Premium users get unlimited access.
+- Certain features are locked until the user subscribes.
 
-### 7. Setup Settings
+### 7. Set Up Settings
 
-Pastikan halaman settings sudah siap.
+Make sure the settings page is ready.
 
-Cek:
+Check:
 
-- Restore purchase berfungsi.
-- Privacy policy terbuka.
-- Terms of use terbuka.
-- Contact support tersedia.
-- App version tampil.
+- Restore purchase works.
+- Privacy policy opens.
+- Terms of use opens.
+- Contact support is available.
+- App version is visible.
 
-### 8. Jalankan App
+### 8. Run The App
 
-Run app dan cek flow dasar.
+Run the app and check the base flow.
 
 Checklist:
 
-- Onboarding tampil.
-- Paywall tampil.
-- Main screen bisa dibuka.
-- Settings bisa dibuka.
-- Premium state terbaca.
-- Tidak ada crash saat app pertama dibuka.
+- Onboarding appears.
+- Paywall appears.
+- Main screen opens.
+- Settings page opens.
+- Premium state is detected.
+- No crash on first launch.
 
-## Ringkasan
+## Summary
 
-Setup project harus dimulai dari boilerplate yang sudah punya dependencies, onboarding, paywall, payment, trial, premium state, dan settings, supaya fokus utama bisa langsung ke fitur inti app.
+Project setup should start from a boilerplate that already includes dependencies, onboarding, paywall, payment, trial, premium state, and settings, so the main focus can move directly to the app's core feature.

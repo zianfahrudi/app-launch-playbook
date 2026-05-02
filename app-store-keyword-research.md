@@ -1,56 +1,56 @@
 # App Store Keyword Research
 
-## Tools Riset
+## Research Tools
 
-Gunakan salah satu atau kombinasikan beberapa tool berikut:
+Use one tool or combine several tools:
 
 - [TryAstro](https://tryastro.app/)
 - [AppKittie](https://www.appkittie.com/)
 - [AppSprint](https://appsprint.app/aso)
 
-Yang perlu dicek dari tool:
+What to check:
 
 - Popularity
 - Difficulty
-- Competitor
-- Keyword competitor
-- Jumlah rating/review competitor
-- Ranking app untuk keyword tertentu
+- Competitors
+- Competitor keywords
+- Competitor ratings/reviews
+- App ranking for each keyword
 
-## Rule Utama
+## Main Rule
 
-Gunakan filter awal seperti ini:
+Use this initial filter:
 
 ```text
-Popularity minimal: 40
-Difficulty maksimal: 60
+Minimum popularity: 40
+Maximum difficulty: 60
 ```
 
-Artinya:
+Meaning:
 
-- Keyword dengan popularity di bawah 40 biasanya kurang menarik karena demand kecil.
-- Keyword dengan difficulty di atas 60 biasanya terlalu kompetitif untuk app baru.
-- Keyword ideal adalah yang popularity-nya cukup tinggi, tetapi difficulty-nya masih masuk akal.
+- Keywords below 40 popularity are usually less attractive because demand is low.
+- Keywords above 60 difficulty are usually too competitive for a new app.
+- The ideal keyword has enough demand but is still realistic to rank for.
 
 ## Step-by-Step
 
-### 1. Tentukan Ide App
+### 1. Choose An App Idea
 
-Mulai dari satu ide app yang jelas.
+Start with one clear app idea.
 
-Contoh:
+Example:
 
 ```text
 Stamp Identifier
 ```
 
-Jangan mulai dari nama brand. Mulai dari masalah yang ingin diselesaikan user.
+Do not start with a brand name. Start with the problem the user wants to solve.
 
-### 2. Ubah Ide Menjadi Keyword
+### 2. Turn The Idea Into Keywords
 
-Buat keyword yang kemungkinan besar diketik user di App Store.
+Create keywords that users would likely type in the App Store.
 
-Contoh pola keyword:
+Keyword patterns:
 
 - `[object] identifier`
 - `[object] scanner`
@@ -58,7 +58,7 @@ Contoh pola keyword:
 - `[problem] app`
 - `[task] helper`
 
-Contoh:
+Examples:
 
 ```text
 stamp identifier
@@ -67,95 +67,95 @@ stamp value
 postage stamp identifier
 ```
 
-### 3. Masukkan Keyword Ke Tool
+### 3. Add The Keyword To A Tool
 
-Masukkan keyword utama ke TryAstro, AppKittie, atau AppSprint.
+Add the main keyword to TryAstro, AppKittie, or AppSprint.
 
-Catat:
+Record:
 
 - Popularity
 - Difficulty
-- Competitor yang muncul
-- Jumlah rating competitor
+- Competitors shown
+- Competitor rating count
 
-Gunakan rule:
+Use this rule:
 
 ```text
 Popularity >= 40
 Difficulty <= 60
 ```
 
-Kalau keyword tidak lolos rule ini, simpan sebagai ide cadangan atau cari variasi lain.
+If a keyword does not pass this rule, keep it as a backup idea or look for another variation.
 
-### 4. Cek Competitor
+### 4. Check Competitors
 
-Buka daftar app yang ranking untuk keyword tersebut.
+Open the apps ranking for that keyword.
 
-Perhatikan:
+Check:
 
-- Berapa banyak app yang punya rating tinggi.
-- Apakah top competitor terlalu kuat.
-- Apakah masih ada app baru yang bisa masuk.
-- Apakah kualitas app competitor masih bisa dikalahkan.
-- Apakah screenshot, rating, dan positioning mereka bagus.
+- How many apps have high ratings.
+- Whether the top competitor is too strong.
+- Whether new apps can still rank.
+- Whether competitor quality can be improved.
+- Whether screenshots, ratings, and positioning are strong.
 
-Keyword masih menarik jika:
+A keyword is still interesting if:
 
-- Ada competitor, berarti market terbukti.
-- Tidak semua competitor punya ribuan rating.
-- Ada app baru yang masih bisa ranking.
-- Kualitas competitor terlihat masih bisa diperbaiki.
+- Competitors exist, which means the market is proven.
+- Not all competitors have thousands of ratings.
+- New apps can still rank.
+- Competitor quality still leaves room for improvement.
 
-### 5. Ambil Keyword Dari Competitor
+### 5. Pull Keywords From Competitors
 
-Lihat keyword apa saja yang dipakai competitor.
+Look at the keywords used by competitors.
 
-Ambil keyword yang:
+Keep keywords that are:
 
-- Relevan dengan app.
-- Popularity minimal 40.
-- Difficulty maksimal 60.
-- Tidak terlalu generik.
-- Tidak terlalu mirip brand/nama app competitor.
+- Relevant to the app.
+- At least 40 popularity.
+- Maximum 60 difficulty.
+- Not too generic.
+- Not too close to a competitor brand or app name.
 
-Buang keyword yang:
+Remove keywords that are:
 
-- Tidak relevan.
-- Popularity rendah.
-- Difficulty terlalu tinggi.
-- Search intent-nya beda dengan fitur app.
+- Not relevant.
+- Low popularity.
+- Too difficult.
+- Based on a different search intent.
 
-### 6. Buat Shortlist Keyword
+### 6. Create A Keyword Shortlist
 
-Kumpulkan keyword yang lolos filter ke tabel.
+Collect the keywords that pass the filter into a table.
 
-| Keyword | Popularity | Difficulty | Competitor | Keputusan |
+| Keyword | Popularity | Difficulty | Competitor | Decision |
 |---|---:|---:|---|---|
-| stamp identifier | 40+ | <= 60 | Ada | Kandidat utama |
-| stamp scanner | 40+ | <= 60 | Ada | Kandidat pendukung |
-| stamp value | 40+ | <= 60 | Ada | Kandidat pendukung |
+| stamp identifier | 40+ | <= 60 | Yes | Main candidate |
+| stamp scanner | 40+ | <= 60 | Yes | Supporting keyword |
+| stamp value | 40+ | <= 60 | Yes | Supporting keyword |
 
-Pilih:
+Choose:
 
-- 1 keyword utama.
-- 3 sampai 10 keyword pendukung.
+- 1 main keyword.
+- 3 to 10 supporting keywords.
 
-### 7. Tentukan Keyword Utama
+### 7. Choose The Main Keyword
 
-Keyword utama harus:
+The main keyword must:
 
-- Paling relevan dengan fungsi app.
-- Punya popularity minimal 40.
-- Punya difficulty maksimal 60.
-- Tidak memakai nama brand competitor.
-- Bisa dipakai secara natural di app name atau subtitle.
+- Be the most relevant to the app function.
+- Have at least 40 popularity.
+- Have maximum 60 difficulty.
+- Avoid competitor brand names.
+- Fit naturally in the app name or subtitle.
 
-Contoh:
+Example:
 
 ```text
 stamp identifier
 ```
 
-## Ringkasan
+## Summary
 
-Cari keyword yang popularity-nya minimal 40, difficulty maksimal 60, relevan dengan masalah user, dan kompetisinya masih bisa dimenangkan.
+Find keywords with at least 40 popularity, maximum 60 difficulty, strong relevance to the user problem, and competition that can still be beaten.
