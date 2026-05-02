@@ -1,16 +1,5 @@
 # App Store Keyword Research
 
-## Tujuan
-
-Riset keyword dipakai untuk memastikan ide app punya demand di App Store sebelum mulai build.
-
-Fokus utamanya:
-
-- Cari keyword yang benar-benar dicari user.
-- Pilih keyword yang masih realistis untuk dimenangkan.
-- Validasi apakah niche punya kompetitor, tetapi belum terlalu berat.
-- Tentukan keyword utama untuk nama app, subtitle, dan metadata.
-
 ## Tools Riset
 
 Gunakan salah satu atau kombinasikan beberapa tool berikut:
@@ -166,42 +155,6 @@ Contoh:
 ```text
 stamp identifier
 ```
-
-### 8. Buat Keputusan
-
-Lanjut build jika:
-
-- Keyword utama lolos filter.
-- Ada demand yang cukup.
-- Kompetisi masih bisa dilawan.
-- App bisa dibuat lebih baik dari competitor.
-- Positioning app jelas.
-
-Jangan lanjut dulu jika:
-
-- Keyword utama popularity-nya rendah.
-- Difficulty terlalu tinggi.
-- Competitor terlalu dominan.
-- Keyword tidak cocok dengan fitur app.
-- Tidak ada keyword pendukung yang menarik.
-
-## Output Akhir
-
-Setelah riset, minimal harus punya:
-
-- Keyword utama.
-- Keyword pendukung.
-- Daftar competitor.
-- Alasan keyword ini layak ditarget.
-- Keputusan lanjut build atau cari ide lain.
-
-## Template Riset
-
-| Keyword | Popularity | Difficulty | Top Competitor | Rating Competitor | Catatan | Keputusan |
-|---|---:|---:|---|---:|---|---|
-|  |  |  |  |  |  |  |
-|  |  |  |  |  |  |  |
-|  |  |  |  |  |  |  |
 
 ## Ringkasan
 
