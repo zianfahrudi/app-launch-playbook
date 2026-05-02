@@ -4,9 +4,9 @@
 
 Gunakan salah satu atau kombinasikan beberapa tool berikut:
 
-- TryAstro
-- AppKittie
-- AppSprint
+- [TryAstro](https://tryastro.app/)
+- [AppKittie](https://www.appkittie.com/)
+- [AppSprint](https://appsprint.app/aso)
 
 Yang perlu dicek dari tool:
 
